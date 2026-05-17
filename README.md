@@ -1,7 +1,3 @@
-Le problème vient surtout des blocs Markdown mal fermés et du mélange entre texte normal et blocs de code.
-Voici une version **corrigée et propre** de ton fichier `.md` :
-
-````md
 # TP2 : Traitement de Documents PDF et Préparation RAG avec LangChain
 
 Ce projet contient les premières étapes de mise en place d'un système de génération augmentée par récupération (RAG). Il montre comment charger un document PDF local, l'analyser et le découper en segments (*chunks*) optimisés pour un grand modèle de langage (LLM).
@@ -122,4 +118,3 @@ D'après les imports déclarés dans la première cellule, la suite logique du p
 - Stocker les vecteurs dans une base de données vectorielle locale avec `Chroma`.
 - Créer des outils personnalisés avec `@tool`.
 - Configurer un agent conversationnel capable d'interroger intelligemment les documents.
-````
